@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
+#carousel .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+
+.navbar {
+    background-color: transparent !important;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.navbar.alt-color {
+    background-color: #343a40!important;
+}
+ 
+hr { 
+    width: 50%;
+    border-color: black;
+}
+
+#imagen{
+    position: relative;
+    width: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+////////
+
+.team-person {
+    text-align: center;
+    position: relative;
+}
+
+.team-person img {
+    max-width: 100%;
+    height: auto;
+   transition: all 0.5s;
+   -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.team-profile ul li a img {
+    height: 20px;
+}
+
+.team-person .team-profile {
+    position: absolute;
+    background: #1f1f1f;
+    bottom: 0;
+    padding: 40px 35px 35px;
+    text-align: left;
+    color: #999;
+    left: 15px;
+    right: 15px;
+    margin-bottom: -10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.team-person:hover .team-profile {
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-person:hover img {
+   -webkit-filter: grayscale(0);
+           filter: grayscale(0);
+} 	 	
+
+.team-profile h5 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.team-profile .about-team-person {
+    margin: 10px 0;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.social-network img{
+    max-width: 100%;
+    height: auto;
+   -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.social-network:hover img {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+ } 	 	
+  
+.tamano {
+    height: 200px;
+    height: 200px;
+}
+
+
+.shadow{
+   -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.shadow:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); 
+}
+
+
+.my-jobs{
+    max-width: 100%;
+    height: auto;
+   -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.my-jobs:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); 
+} 
+
+#contactanos p a{
+    text-decoration: none;
+}
+
+footer p{
+    color: #B7AD99;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    
+}
+
+footer p a{
+    max-height: 10px;
+}
+
+.btn-bigsit{
+    background-color: #343a40;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.btn-bigsit:hover{
+    color: whitesmoke;
+}
